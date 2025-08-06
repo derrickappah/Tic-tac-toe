@@ -35,14 +35,14 @@
     <button class="btn btn-blue" id="player-vs-player">Player vs Player</button>
     <button class="btn btn-green" id="player-vs-computer">Play vs Computer</button>
   </div>
-  
+
   <div id="difficulty-selection" class="hidden flex flex-col items-center gap-4 mb-8">
     <h2 class="text-xl font-semibold text-gray-700">Select Difficulty</h2>
     <div class="flex gap-4 items-center">
       <select id="difficulty-dropdown" class="form-select block w-full px-4 py-2 text-base text-gray-700 bg-white border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
         <option value="easy" class="bg-green-500 text-white">Easy</option>
         <option value="medium" class="bg-blue-500 text-white">Medium</option>
-0        <option value="unbeatable" class="bg-gray-500 text-white">Unbeatable</option>
+        <option value="unbeatable" class="bg-gray-500 text-white">Unbeatable</option>
       </select>
       <button class="btn btn-blue" id="start-computer-game">Start Game</button>
     </div>
@@ -63,7 +63,7 @@
   <div class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center" id="game-over-modal">
     <div class="bg-white p-8 rounded-lg shadow-xl text-center">
       <h2 class="text-2xl font-bold mb-6" id="winner-message"></h2>
-      <div class="flex gap-4 justify-center">
+      <div class="flex gap-4 justify-center flex-wrap">
         <button class="btn btn-blue" id="play-again-button">Play Again</button>
         <button class="btn btn-gray" id="change-mode-button">Change Mode</button>
       </div>
