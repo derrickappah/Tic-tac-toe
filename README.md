@@ -8,11 +8,13 @@ A fully responsive and interactive Tic Tac Toe game built using **HTML**, **CSS 
 
 ---
 
-## 📸 Demo
+## 🚀 Live Demo
 
-## [Live Demo](https://derrickappah.github.io/Tic-tac-toe/)  
+> **[Try It Here](https://derrickappah.github.io/Tic-tac-toe/)**
+>
+> _Powered by GitHub Pages_
+
 ![Live Demo](assets/Screenshot.jpg)
-
 
 ---
 
