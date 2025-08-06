@@ -36,6 +36,7 @@ A fully responsive and interactive Tic Tac Toe game built using **HTML**, **CSS 
 
 ## 📂 Project Structure
 
+```
 tic-tac-toe
 │
 ├── index.html            # Main HTML file (game UI & structure)
@@ -44,7 +45,7 @@ tic-tac-toe
 ├── README.md             # Project documentation
 └── assets/
     └── screenshot.png    # Game screenshot (used in README)
- 
+ ```
 
 ---
 
