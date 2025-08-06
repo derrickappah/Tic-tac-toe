@@ -10,8 +10,8 @@ A fully responsive and interactive Tic Tac Toe game built using **HTML**, **CSS 
 
 ## 📸 Demo
 
-![Tic Tac Toe Screenshot](screenshot.png)  
-*(Include a screenshot of your app named `screenshot.png` in the project root)*
+![Live Demo](https://derrickappah.github.io/Tic-tac-toe/)  
+
 
 ---
 
