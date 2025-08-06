@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: max(884px, 100dvh);
+}
+
+.grid-cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.x-symbol {
+  font-size: 6rem;
+  color: #38bdf8;
+  line-height: 1;
+}
+
+.o-symbol {
+  width: 70px;
+  height: 70px;
+  border: 12px solid #f87171;
+  border-radius: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 0;
+  border: 2px solid #1f2937;
+  background-color: #1f2937;
+}
+
+.cell-border-right {
+  border-right: 2px solid #1f2937;
+}
+
+.cell-border-bottom {
+  border-bottom: 2px solid #1f2937;
+}
+
+.winning-cell {
+  background-color: #a7f3d0 !important;
+}
+
+/* Tailwind utility extensions */
+.btn {
+  @apply font-bold py-2 px-6 rounded-lg transition duration-300;
+}
+
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-600 text-white;
+}
+
+.btn-green {
+  @apply bg-green-500 hover:bg-green-600 text-white;
+}
+
+.btn-gray {
+  @apply bg-gray-500 hover:bg-gray-600 text-white;
+}
