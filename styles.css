@@ -3,6 +3,7 @@ body {
   min-height: max(884px, 100dvh);
 }
 
+/* Grid cells */
 .grid-cell {
   width: 100px;
   height: 100px;
@@ -13,28 +14,31 @@ body {
   transition: background-color 0.3s;
 }
 
+/* X and O styles */
 .x-symbol {
   font-size: 6rem;
-  color: #38bdf8;
+  color: #38bdf8; /* Light blue */
   line-height: 1;
 }
 
 .o-symbol {
   width: 70px;
   height: 70px;
-  border: 12px solid #f87171;
+  border: 12px solid #f87171; /* Light red */
   border-radius: 50%;
 }
 
+/* Game board grid */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   gap: 0;
-  border: 2px solid #1f2937;
-  background-color: #1f2937;
+  border: 2px solid #1f2937; /* Dark Gray */
+  background-color: #1f2937; /* Dark Gray */
 }
 
+/* Cell borders */
 .cell-border-right {
   border-right: 2px solid #1f2937;
 }
@@ -43,23 +47,42 @@ body {
   border-bottom: 2px solid #1f2937;
 }
 
+/* Highlight winning cells */
 .winning-cell {
-  background-color: #a7f3d0 !important;
+  background-color: #a7f3d0 !important; /* Light Green */
 }
 
-/* Tailwind utility extensions */
+/* Button styling using Tailwind utility classes directly */
 .btn {
-  @apply font-bold py-2 px-6 rounded-lg transition duration-300;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
 }
 
 .btn-blue {
-  @apply bg-blue-500 hover:bg-blue-600 text-white;
+  background-color: #3b82f6; /* Tailwind Blue 500 */
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #2563eb; /* Blue 600 */
 }
 
 .btn-green {
-  @apply bg-green-500 hover:bg-green-600 text-white;
+  background-color: #22c55e; /* Tailwind Green 500 */
+  color: white;
+}
+
+.btn-green:hover {
+  background-color: #16a34a; /* Green 600 */
 }
 
 .btn-gray {
-  @apply bg-gray-500 hover:bg-gray-600 text-white;
+  background-color: #6b7280; /* Tailwind Gray 500 */
+  color: white;
+}
+
+.btn-gray:hover {
+  background-color: #4b5563; /* Gray 600 */
 }
