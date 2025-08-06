@@ -36,7 +36,7 @@ A fully responsive and interactive Tic Tac Toe game built using **HTML**, **CSS 
 
 ## 📂 Project Structure
 
-tic-tac-toe-advanced/
+tic-tac-toe
 │
 ├── index.html            # Main HTML file (game UI & structure)
 ├── styles.css            # Custom CSS with Tailwind utility overrides
@@ -44,7 +44,9 @@ tic-tac-toe-advanced/
 ├── README.md             # Project documentation
 └── assets/
     └── screenshot.png    # Game screenshot (used in README)
- ---
+ 
+
+---
 
 ## ⚙️ How to Run
 
